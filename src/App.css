@@ -1,0 +1,88 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.title-container {
+  border: 5px solid rgb(0, 41, 128);
+  margin-top: 0px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(120, 30, 105, 0.534);
+  padding: 0px;
+}
+
+.interval-container {
+  display: flex;
+  margin: 0 40px;
+  align-items: center;
+
+}
+
+.interval-duration-container {
+  display: flex;
+
+}
+
+button {
+  padding: 5px 12px;
+  margin: 0 20px;
+  height: 25px;
+  background-color: pink;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  width: 70px;
+  border-radius: 20px;
+
+}
+
+button:disabled {
+  cursor: not-allowed
+}
+
+.interval-length {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.timer-container {
+  border: 2px solid green;
+  margin-top: 40px;
+  border-radius: 25px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(30, 120, 50, 0.534);
+  padding: 10px;
+}
+
+.timer {
+  font-size: 2rem;
+  color: red;
+  
+}
+
+.timer-actions {
+  margin-top: 20px;
+  text-align: center;
+}
